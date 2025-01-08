@@ -1,0 +1,30 @@
+.recipeSearchControl {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    margin: auto;
+}
+
+.searchBar {
+    padding: 10px 5px;
+    border-radius: 12px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    margin: 10px 0;
+}
+
+.recipeSearchBtn {
+    padding: 10px 5px;
+    border-radius: 12px;
+    font-size: 16px;
+    background-color: #16C47F;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.recipeSearchBtn:hover {
+    background-color: #13a86c;
+    color: white;
+}
