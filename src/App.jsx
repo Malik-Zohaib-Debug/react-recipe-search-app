@@ -1,8 +1,13 @@
-import React from "react";
+import React, { Fragment } from "react";
 import "./App.css";
+import Header from "./components/header/Header";
 
 function App() {
-  return <h1>React Recipe Search App</h1>;
+  return (
+    <Fragment>
+      <Header />
+    </Fragment>
+  );
 }
 
 export default App;
