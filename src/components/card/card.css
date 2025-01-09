@@ -1,0 +1,40 @@
+.main-card{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: auto;
+    padding-left: 20px;
+}
+.recipe-name{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+.recipe-image{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    border-radius: 16px;
+}
+.recipe-info{
+    padding-top: 10px;
+    display: flex;
+    gap: 10px;
+    font-size: 16px;
+}
+
+.make-time {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.recipe-ratings{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* .recipe-ratings > p{
+    gap: 2px;
+} */
