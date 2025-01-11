@@ -1,15 +1,11 @@
 import React, { Fragment } from "react";
 import "./App.css";
-import Header from "./components/header/Header";
-import RecipeSearchBar from "./components/recipeSearchBar/RecipeSearchBar";
-import Cards from "./components/card/Card";
+import HomePage from "./pages/homePage";
 
 function App() {
   return (
     <Fragment>
-      <Header />
-      <RecipeSearchBar />
-      <Cards />
+      <HomePage />
     </Fragment>
   );
 }

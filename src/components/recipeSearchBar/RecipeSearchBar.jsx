@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import "./recipeSearchBar.css";
 
-const RecipeSearchBar = () => {
-  const [recipes, setRecipes] = useState([]);
+const RecipeSearchBar = ({ addRecipes }) => {
   const [keyword, setKeyword] = useState("");
 
   const getSearchedRecipes = (recipe) => {
+    // setIsLoading(true)
     fetch(`https://dummyjson.com/recipes/search?q=${recipe}`)
       .then((res) => res.json())
-      .then((data) => console.log(data));
+      .then((data) => addRecipes(data.recipes));
   };
 
   return (
