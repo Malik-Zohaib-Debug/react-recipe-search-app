@@ -11,3 +11,47 @@
     text-align: center;
     justify-content: center;
 }
+
+.recipe-detail {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.recipe-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.recipe-image > img {
+    border-radius: 20px;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 60px;
+}
+
+.recipe-detail-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.heading {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.recipe{
+    font-size: 24px;
+}
+
+.recipe-detail-info-ingredient {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
